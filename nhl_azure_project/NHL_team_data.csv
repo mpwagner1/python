@@ -1,0 +1,33 @@
+﻿ID,Team Name,Team Code,City,Stadium Name,City Population,Date Founded,Original 6 Team
+1,Montreal Canadiens,,Montreal,Bell Centre,"1,780,000",12/4/1909,Yes
+2,Toronto Maple Leafs,,Toronto,Scotiabank Arena,"2,930,000",11/22/1917,Yes
+3,Boston Bruins,,Boston,TD Garden,"4,330,000",11/1/1924,Yes
+4,New York Rangers,,New York City,Madison Square Garden,"8,400,000",5/15/1926,Yes
+5,Chicago Blackhawks,,Chicago,United Center,"2,700,000",9/25/1926,Yes
+6,Detroit Red Wings,,Detroit,Little Caesars Arena,"4,300,000",9/25/1926,Yes
+7,Dallas Stars,,Dallas,American Airlines Center,"1,382,000",6/5/1967,No
+8,Los Angeles Kings,,Los Angeles,Crypto.com Arena,"3,970,000",6/5/1967,No
+9,Philadelphia Flyers,,Philadelphia,Wells Fargo Center,"1,580,000",6/5/1967,No
+10,Pittsburgh Penguins,,Pittsburgh,PPG Paints Arena,"2,300,000",6/5/1967,No
+11,St. Louis Blues,,St. Louis,Enterprise Center,"1,348,000",6/5/1967,No
+12,Buffalo Sabres,,Buffalo,KeyBank Center,"255,000",5/22/1970,No
+13,Vancouver Canucks,,Vancouver,Rogers Arena,"631,000",5/22/1970,No
+14,Carolina Hurricanes,,Raleigh,PNC Arena,"1,382,000",6/5/1971,No
+15,Calgary Flames,,Calgary,Scotiabank Saddledome,"1,392,609",6/6/1972,No
+16,Colorado Avalanche,,Denver,Ball Arena,"2,963,000",6/6/1972,No
+17,Edmonton Oilers,,Edmonton,Rogers Place,"1,491,000",6/6/1972,No
+18,New York Islanders,,New York City,UBS Arena,"8,400,000",6/6/1972,No
+19,Winnipeg Jets,,Winnipeg,Canada Life Centre,"749,500",6/6/1972,No
+20,Arizona Coyotes,,Glendale,Gila River Arena,"256,000",12/27/1972,No
+21,New Jersey Devils,,Newark,Prudential Center,"282,011",6/11/1974,No
+22,Washington Capitals,,"Washington, D.C.",Capital One Arena,"689,000",6/11/1974,No
+23,Ottawa Senators,,Ottawa,Canadian Tire Centre,"1,246,000",12/6/1990,No
+24,San Jose Sharks,,San Jose,SAP Center at San Jose,"1,015,785",5/5/1991,No
+25,Tampa Bay Lightning,,Tampa,Amalie Arena,"4,447,000",12/16/1992,No
+26,Florida Panthers,,Sunrise,FLA Live Arena,"95,000",6/14/1993,No
+27,Anaheim Ducks,,Anaheim,Honda Center,"350,000",12/10/1993,No
+28,Nashville Predators,,Nashville,Bridgestone Arena,"689,000",6/25/1998,No
+29,Columbus Blue Jackets,,Columbus,Nationwide Arena,"892,533",6/25/2000,No
+30,Minnesota Wild,,Saint Paul,Xcel Energy Center,"285,000",6/25/2000,No
+31,Vegas Golden Knights,,Paradise,T-Mobile Arena,"233,270",6/22/2017,No
+32,Seattle Kraken,,Seattle,Climate Pledge Arena,"794,620",7/21/2021,No
