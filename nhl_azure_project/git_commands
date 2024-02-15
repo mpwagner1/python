@@ -1,0 +1,13 @@
+git init - Initialize a new Git repository.
+git clone <repository-url> - Clone an existing Git repository.
+git add <file> - Stage changes for commit.
+git commit -m "Commit message" - Commit staged changes with a message.
+git status - View the status of your repository.
+git log - View the commit history of your repository.
+git pull - Fetch and merge changes from the remote repository.
+git push - Push local commits to the remote repository.
+git branch <branch-name> - Create a new branch.
+git checkout <branch-name> - Switch to a different branch.
+git merge <branch-name> - Merge changes from one branch into another.
+git checkout -- <file> - Discard changes in the working directory for a specific file.
+git reset HEAD <file> - Reset the changes in a file that has been staged.

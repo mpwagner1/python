@@ -1,9 +1,14 @@
+import logging
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import pandas as pd
+
+# Configure logging
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 
 class NHLScraper:
@@ -13,6 +18,7 @@ class NHLScraper:
         self.driver = webdriver.Chrome()
         self.page_num = 0
         self.all_player_data = []
+        self.headers_table = []  # Initialize headers_table attribute
 
     def scrape(self):
         while True:
@@ -25,7 +31,9 @@ class NHLScraper:
             soup = BeautifulSoup(html_content, "html.parser")
 
             headers = soup.find_all("div", role="columnheader")
-            headers_table = [header.text for header in headers if header.text != "i"]
+            self.headers_table = [
+                header.text for header in headers if header.text != "i"
+            ]  # Assign headers_table
 
             rows = soup.find_all("div", role="row")
 
@@ -42,13 +50,13 @@ class NHLScraper:
                 break
 
             # Added a print statement to show progress
-            print(f"Scraped page {self.page_num + 1}")
+            logger.debug(f"Scraped page {self.page_num + 1}")
 
         self.driver.quit()
 
 
 if __name__ == "__main__":
-    season = "20152016"
+    season = "20142015"
     scraper = NHLScraper(season)
     scraper.scrape()
     nhl_stats_df = pd.DataFrame(scraper.all_player_data, columns=scraper.headers_table)
