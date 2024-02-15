@@ -56,7 +56,7 @@ class NHLScraper:
 
 
 if __name__ == "__main__":
-    season = "20142015"
+    season = input("Enter the season (e.g., 20142015): ")
     scraper = NHLScraper(season)
     scraper.scrape()
     nhl_stats_df = pd.DataFrame(scraper.all_player_data, columns=scraper.headers_table)
